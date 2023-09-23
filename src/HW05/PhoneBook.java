@@ -9,7 +9,7 @@ package HW05;
 
 public class PhoneBook {
     public static void main(String[] args) {
-
+        System.out.println("test");
     }
 
 }
