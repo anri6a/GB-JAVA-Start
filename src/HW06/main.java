@@ -11,8 +11,6 @@ package HW06;
 //  Далее нужно запросить минимальные значения для указанных критериев - сохранить параметры фильтрации можно также в Map.
 //  Отфильтровать ноутбуки их первоначального множества и вывести проходящие по условиям.
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class main {
     public static void main(String[] args) {

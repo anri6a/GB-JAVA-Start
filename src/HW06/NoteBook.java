@@ -5,12 +5,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class NoteBook {
-    private String name;
-    private int ram;
-    private int hdd;
-    private String os;
-    private String color;
-    private int screenSize;
+     String name;
+     int ram;
+     int hdd;
+     String os;
+     String color;
+     int screenSize;
 
     public NoteBook(String name, int ram, int hdd, String os, String color, int screenSize) {
         this.name = name;
@@ -29,7 +29,7 @@ public class NoteBook {
 
    public static Set<NoteBook> noteBookSet = new HashSet<>();
 
-    public static Set createNoteBooksSet(){
+    public static void createNoteBooksSet(){
         NoteBook noteBook1 = new NoteBook("HP", 16, 1024, "Linux", "black", 15);
         NoteBook noteBook2 = new NoteBook("MacBook", 24, 512, "MacOS", "silver", 14);
         NoteBook noteBook3 = new NoteBook("Lenovo", 8, 2048, "Win", "black", 15);
@@ -40,7 +40,7 @@ public class NoteBook {
         noteBookSet.add(noteBook2);
         noteBookSet.add(noteBook3);
         noteBookSet.add(noteBook4);
-        return noteBookSet;
+        //return noteBookSet;
     }
 
 }
